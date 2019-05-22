@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>ArzJs</title>
+  <meta name="description" content="arz.js">
+  <meta name="author" content="Önder ALTINTAŞ">
+    <script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/build/ol.js"></script>
+ <link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/css/ol.css" type="text/css">
+    <link rel="stylesheet" href="css/olOverrides.css?v=1.0">
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+</head>
+<body>
+  <div id="map" class="map"></div>
+  <div id="topBar" class="card">
+    <div id="pan" class="button card hand toggle buttonToggle"></div>
+    <div id="modify" class="button card modify toggle"></div>
+    <div id="rectangleZoom" class="button card rectangleZoom toggle"></div>
+    <!--<div class="button card snap"></div>-->
+  </div>
+  <div id="leftBar" class="card">
+    <div id="drawPoint" class="button card drawPoint toggle"></div>
+    <div id="drawLineString" class="button card drawLineString toggle"></div>
+    <div id="drawPolygon" class="button card drawPolygon toggle"></div>
+    <div id="drawCircle" class="button card drawCircle toggle"></div>    
+    <div id="drawSquare" class="button card drawSquare toggle"></div>
+    <div id="drawRectangle" class="button card drawRectangle toggle"></div>
+    <div id="drawStar" class="button card drawStar toggle"></div>
+  </div>
+  <script src="js/application.js"></script>
+</body>
+</html>
