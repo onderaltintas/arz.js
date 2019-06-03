@@ -1,7 +1,7 @@
 # arz.js The Map Framework for Humanity
 0- Meaning of ARZ is "Earth (in english)" or "Gaia (in greek)".
   
-The name comes from Asimov's Foundation series, 4th book, "Foundation Borders". I wanted to name it "Gaia" but unfortunately there are 23984723947 GAIA frameworks or such things in the world. Plus, github doesn't allow greek letters (trying here: γη). I am happy with the name anyways. It feels like the framework is coming from 'a' and going to 'z' by passing 'r' hehe. It is in turkish, also means "demand". 
+The name comes from Asimov's Foundation series, 4th book, "Foundation's Edge". I wanted to name it "Gaia" but unfortunately there are 23984723947 GAIA frameworks or such things in the world. Plus, github doesn't allow greek letters (trying here: γη). I am happy with the name anyways. It feels like the framework is coming from 'a' and going to 'z' by passing 'r' hehe. It is in turkish, also means "demand". 
 
 1- Map framework that uses OpenLayers 3+ (now they are using semantic versioning and @5... something version, but these are mostly variations of version 3).  
 2- Roadmap etc are @ my mind right now, cannot find time to work on it due to work lief :S  
