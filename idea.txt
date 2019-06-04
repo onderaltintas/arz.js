@@ -1,0 +1,28 @@
+1- Will be much like 2013 version. It was usable. 
+2- Client can create ui elements on map
+3- Web worker is the key - mapbox is doing it nearly right way
+4- Façade implementation to client for ease of use
+5- GeoJSON as main format
+6- WGS84 as default (think twice)
+7- Client can create his own tools on map that interacts with map
+8- Client can create his own containers on map that interacts with map
+9- Jasmine for tests, cause creating-a-node-express-webpack-app-with-dev-and-prod-builds says so.
+10- Google style guide for js
+11- Lint
+12- JsDoc 2.0 or such
+13- ES6 doesn't give too much benefit. Same s, but different color. Still consider. 
+14- Draw.io for mockups and class diagrams and sequence diagrams and such s.
+15- Performance has the 1st value.
+16- OpenLayers will be used. 
+17- Mobile friendly? Might be important. Right now web@mobile with hybrid apps are still suck b. In the future, I don't know...
+18- WMS, WFS integration, can connect defined server as storage. OGC is the key. 
+19- Loading spinner.
+20- Loading spinner @ full size.
+21- Toolbar @defined place.
+22- Buttons @defined toolbar.
+23- Overview map? Noone uses it anyways. Is it that much useful or people wants it just it is standard? Doesn't even look good.
+24- Layers, both wfs,wms.
+25- There will be no tree, layer of layer, layer of layer of layer... and such. -This one can change.
+26- Will never use "its own standards". It does create pita in the future.
+
+
