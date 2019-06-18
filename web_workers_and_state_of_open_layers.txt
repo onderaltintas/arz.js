@@ -1,0 +1,14 @@
+Let's see If I can add 1-2 words on already closed topic...
+
+I believe the web workers are both good and bad additions to javascript. 
+
+Good because they give you a chance to go out from main thread without faking anything. Let's say you have x thousand features updating every few seconds, either you lose from performance or consistency because dividing x work to async functions and executing them requires more time than doing x functions together and if you try to do all the job at once, you will lock the main thread. 
+
+Bad because web workers are so primitive that you cannot even send objects instances from your own classes or cannot obtain them back. You just send simple, retrieve simple things. So parsin json/xml to ol objects becomes pita. The pipeline will remove all the functions from your objects anyways while communicating with main thread. So you can either stringify& eval the functions for transportation or leave the idea totally. Plus it cannot reach dom elements or do ui type actions. 
+
+Despite the fact that using webworkers makes the application much more complex than using threads in java (because of lack of functionalities); still chance should be given. I inspected MapBoxGL that I found successful on performance side. The person/people behind it, I guess he/they are also behind the leaflet. The strategy they followed is keeping the thing as simple as possible in my opinion. 
+
+If you will leave the performance job to client and don't show any path how to manage it, then maybe the library/framework will not be named with low performance but the users will suffer from problems and use easier to use frameworks even though they should implement already implemented features on openlayers. 
+
+Here is a real life example:
+Map connects to a server to be able to show 6000 moving features. 6000 features move together each 3 seconds periods. For this, google has x-protobuff something (that I couldn't solve yet hehe) or cesium has czml (which I never used, might be problem), but ol does not have any sh. 
