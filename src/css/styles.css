@@ -30,7 +30,7 @@ html,body,#map{
 }
 
 .button{
-    background-color: white;
+  background-color: white;
   border-color: white;
   background-size: 100%;
   width:25px;
@@ -91,4 +91,12 @@ html,body,#map{
 
 .modify{
   background-image: url("../assets/modify.png");
+}
+
+.snap{
+  background-image: url("../assets/snap.png");
+}
+
+.nonRelative{
+  margin-left: 15px;
 }
