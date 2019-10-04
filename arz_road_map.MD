@@ -1,5 +1,5 @@
 # arz Roadmap:
-## V1.0.0: 
+## V1.0.0:
 Until 30.12.2019 short time, long way to go. The main goal is creating minimum acceptable product.
 1- Basic and composite geometries (point, line, polygon, square, circle, smiling poo, ufo)
 2- ArzCad, Drawing/Editing tools (vertex edit, tabular edit, rotate, scale, move, delete)
