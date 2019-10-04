@@ -11,11 +11,11 @@ Until 30.12.2019 short time, long way to go. The main goal is creating minimum a
 
 ## v2.0.0:
 No ETA. The main goal is improving until perfection and reaching high scale.
-8. Arz API
-9. ArzTopo+, (Complex topological improvements)
-10. ArzData+, External data sources integration (Non ogc standards)
-11. ArzAna, (Client side analysis tools for arz, re-think about the name, turkish meaning of ArzAna: Earth Mother)
-12. Arz3D, Sphere as if it is something useful
+1. Arz API
+2. ArzTopo+, (Complex topological improvements)
+3. ArzData+, External data sources integration (Non ogc standards)
+4. ArzAna, (Client side analysis tools for arz, re-think about the name, turkish meaning of ArzAna: Earth Mother)
+5. Arz3D, Sphere as if it is something useful
 
 Principles:
 1. Free forever, unless I say different
